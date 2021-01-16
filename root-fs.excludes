@@ -1,0 +1,23 @@
+# swap and temp file excludes
+*~
+.*~
+.*.swo
+.*.swp
+.*.swz
+
+# root-fs excludes
+pp:/backup
+pp:/dev
+pp:/lost+found
+pp:/media
+pp:/mnt
+pp:/proc
+pp:/sys
+pp:/tmp
+pp:/var/run
+pp:/var/tmp
+pp:/var/lock
+pp:/not-encrypted
+pp:/home
+
+# add below extra excludes (like pf: ones)
